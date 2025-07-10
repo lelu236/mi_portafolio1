@@ -16,7 +16,7 @@ Este proyecto es una Landing Page de Portafolio Personal realizada como parte de
   - [x] Repositorio en GitHub creado.
   - [x] Proyecto subido al repositorio.
   - [x] Proyecto publicado en GitHub Pages.
-      1
+      https://github.com/lelu236/mi_portafolio1/tree/c3ab054d96d4bff84a87f66dac5ed7e211fb3971
 
 - Uso de Google Fonts:
   - [x] Enlace a Google Fonts incluido en el HTML.
@@ -47,7 +47,7 @@ Este proyecto es una Landing Page de Portafolio Personal realizada como parte de
 
 ## Link a GitHub Pages
 
-1
+https://github.com/lelu236/mi_portafolio1/tree/c3ab054d96d4bff84a87f66dac5ed7e211fb3971
 
 
 ¡Gracias por revisar mi trabajo!
