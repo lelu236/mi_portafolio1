@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Portafolio Personal</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Encabezado con título y navegación -->
+  <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tarjetas">Tarjetas</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#peliculas">Películas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Sobre mí: presentación personal -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy una persona que <span class="mover">aprende rápido</span> y siempre está
+        buscando <span class="mover">nuevas formas</span> de mejorar y crecer.
+        Mi pasión es la tecnología, el desarrollo web y crear soluciones útiles
+        para las personas. Me gusta enfrentar desafíos con <span class="mover">constancia</span>
+        y curiosidad.
+      </p>
+      <img src="img/1.jpg" alt="Foto de perfil o avatar" width="200" />
+    </section>
+
+    <!-- Tarjetas: proyectos, hobbies o intereses -->
+    <section id="tarjetas">
+      <h2>Tarjetas</h2>
+      <div class="tarjetas-contenedor">
+        <div class="tarjeta">
+          <img src="img/guitarra.jpg" alt="Tocar guitarra" />
+          <p>Tocar guitarra: me relaja y me ayuda a concentrarme.</p>
+        </div>
+        <div class="tarjeta">
+          <img src="img/cocina.jpg" alt="Cocinar" />
+          <p>Cocinar: disfruto creando platos variados y saludables.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades: lista sencilla -->
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Eficacia para aprender</li>
+        <li>Tocar guitarra</li>
+        <li>Cocinar</li>
+        <li>Escribir textos</li>
+      </ul>
+    </section>
+
+    <!-- Películas favoritas con imagen y descripción -->
+    <section id="peliculas">
+      <h2>Películas Favoritas</h2>
+      <div class="peliculas-contenedor">
+        <div class="pelicula">
+          <h3>Interestelar</h3>
+          <img src="img/interestelar.jpg" alt="Interestelar" />
+          <p>Una historia sobre el tiempo, el amor y la supervivencia humana.</p>
+        </div>
+        <div class="pelicula">
+          <h3>28 Días Después</h3>
+          <img src="img/28.jpg" alt="28 Días Después" />
+          <p>Un relato intenso de supervivencia y caos post-apocalíptico.</p>
+        </div>
+        <div class="pelicula">
+          <h3>Ratatouille</h3>
+          <img src="img/rata.jpg" alt="Ratatouille" />
+          <p>Una rata que cocina con pasión y creatividad.</p>
+        </div>
+        <div class="pelicula">
+          <h3>La Carga Más Preciada</h3>
+          <img src="img/la carga.jpg" alt="La Carga Más Preciada" />
+          <p>Drama emocional sobre valores y sacrificios personales.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de contacto básico -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Pie de página con info básica y redes -->
+  <footer>
+    <p>© 2025 - Mi Portafolio Personal</p>
+    <p>
+      Mis redes:
+      <a href="#">Instagram</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
